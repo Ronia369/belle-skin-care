@@ -119,8 +119,8 @@ function Page() {
             <img src="key.png" alt="blue key" className="w-[100px] mx-auto"/>
           </div>
           <p className="text-xl text-center mt-2">پک درمان جوش و کنترل چربی پوست (4 جلسه)</p>
-          <p className="text-4xl text-center mt-6">6,740,800</p>
-          <p className="text-sm text-center mt-[15px] font-bold">دو جلسه رفع چربی پوست و رفع جوش</p>
+          {/* <p className="text-4xl text-center mt-6">6,740,800</p> */}
+          <p className="text-sm text-center mt-[10px] font-bold">دو جلسه رفع چربی پوست و رفع جوش</p>
         </div>
       </div>
 
@@ -130,7 +130,7 @@ function Page() {
             <img src="taj.png" alt="" className="w-[200px] mx-auto"/>
           </div>
           <p className="text-xl text-center mt-2"> <strong>پکیج لاکچری فشیال  (6 جلسه VIP)</strong></p>
-          <p className="text-4xl text-center mt-6">12,848,000</p>
+          {/* <p className="text-4xl text-center mt-6">12,848,000</p> */}
           <p className="text-sm text-center mt-10 font-bold">
             یک جلسه آبرسانی، رفع کدری، لیفتینگ، جوانسازی و دو جلسه پکیج پایه همراه با ماساژ تخصصی
           </p>
@@ -143,7 +143,7 @@ function Page() {
         <img src="cloud.png" alt="blue cloud" className="w-[150px] mx-auto"/>
       </div>
       <p className="text-xl text-center mt-2">پک جوانسازی و آبرسانی (5 جلسه)</p>
-      <p className="text-4xl text-center mt-6">10,392,800</p>
+      {/* <p className="text-4xl text-center mt-6">10,392,800</p> */}
       <p className="text-sm text-center mt-6 font-bold">
         دو جلسه آبرسانی پوست، یک جلسه جوانسازی، لیفتینگ، پکیج پایه همراه با ماساژ تخصصی
       </p>
