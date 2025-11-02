@@ -49,7 +49,7 @@ function Header() {
           <button className="px-6 py-2 rounded-2xl bg-gradient-to-r from-[#871683] to-[#74ea15] text-white font-bold shadow-lg hover:scale-105 transition-transform">
             ورود
           </button> */}
-        <a href="/" className="text-black text-2xl mt-7" >خانه</a>
+          <a href="/" className="text-black text-2xl mt-7" >خانه</a>
         <a href="/#card" className="text-black text-2xl mt-7">خدمات</a>
         <a href="/kala" className="text-black text-2xl mt-7">کالا</a>
 
@@ -70,7 +70,7 @@ function Header() {
           <button className="w-full px-6 py-2 rounded-2xl bg-gradient-to-r from-[#871683] to-[#74ea15] text-white font-bold shadow-lg hover:scale-105 transition-transform">
             ورود
           </button> */}
-          <a href="/" className="text-black text-2xl mt-7" >خانه</a>
+        <a href="/" className="text-black text-2xl mt-7" >خانه</a>
         <a href="/#card" className="text-black text-2xl mt-7">خدمات</a>
         <a href="/kala" className="text-black text-2xl mt-7">کالا</a>
 
