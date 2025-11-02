@@ -37,7 +37,7 @@ function Header() {
         </button>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex items-center space-x-4">
+        <div className="hidden md:flex items-center justify-center space-x-7">
           {/* <input
             type="search"
             placeholder="جستجو..."
