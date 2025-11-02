@@ -11,9 +11,9 @@ function Header() {
         {/* Logo */}
         <img src="belle logo.png" alt="logo" className="h-16" />
 
-        <a href="/" className="text-black text-2xl mt-7" >خانه</a>
+        {/* <a href="/" className="text-black text-2xl mt-7" >خانه</a>
         <a href="/#card" className="text-black text-2xl mt-7">خدمات</a>
-        <a href="/kala" className="text-black text-2xl mt-7">کالا</a>
+        <a href="/kala" className="text-black text-2xl mt-7">کالا</a> */}
 
         {/* Hamburger Button for Mobile */}
         <button
@@ -38,7 +38,7 @@ function Header() {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-4">
-          <input
+          {/* <input
             type="search"
             placeholder="جستجو..."
             className="w-48 h-10 rounded-2xl bg-gray-200 text-black px-3 text-center focus:outline-none focus:ring-2 focus:ring-[#74ea15] transition-all"
@@ -48,14 +48,18 @@ function Header() {
           </button>
           <button className="px-6 py-2 rounded-2xl bg-gradient-to-r from-[#871683] to-[#74ea15] text-white font-bold shadow-lg hover:scale-105 transition-transform">
             ورود
-          </button>
+          </button> */}
+        <a href="/" className="text-black text-2xl mt-7" >خانه</a>
+        <a href="/#card" className="text-black text-2xl mt-7">خدمات</a>
+        <a href="/kala" className="text-black text-2xl mt-7">کالا</a>
+
         </div>
       </div>
 
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden mt-4 flex flex-col items-center space-y-2">
-          <input
+          {/* <input
             type="text"
             placeholder="جستجو..."
             className="w-full h-10 rounded-2xl bg-gray-200 text-black px-3 text-center focus:outline-none focus:ring-2 focus:ring-[#74ea15] transition-all"
@@ -65,7 +69,11 @@ function Header() {
           </button>
           <button className="w-full px-6 py-2 rounded-2xl bg-gradient-to-r from-[#871683] to-[#74ea15] text-white font-bold shadow-lg hover:scale-105 transition-transform">
             ورود
-          </button>
+          </button> */}
+          <a href="/" className="text-black text-2xl mt-7" >خانه</a>
+        <a href="/#card" className="text-black text-2xl mt-7">خدمات</a>
+        <a href="/kala" className="text-black text-2xl mt-7">کالا</a>
+
         </div>
       )}
     </header>
