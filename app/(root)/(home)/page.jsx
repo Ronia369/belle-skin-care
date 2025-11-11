@@ -202,6 +202,9 @@ function Page() {
         <p className="text-center mt-10 text-gray-300">
           © 2025 Belle SkinCare. همه حقوق محفوظ است.
         </p>
+        <p className="text-center mt-10 text-gray-300">
+          © 2025 made by Sancode.
+        </p>
       </footer>
     </div>
   );
